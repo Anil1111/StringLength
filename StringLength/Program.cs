@@ -10,6 +10,17 @@ namespace StringLength
     {
         static void Main(string[] args)
         {
+             string str = "HelloWorld";
+                // char ch;
+                int i = 0;
+
+                foreach (char ch in str)
+                {
+                    i = i + 1;
+
+                }
+                Console.WriteLine("String Length   is  " + i.ToString());
+            }
         }
     }
-}
+
